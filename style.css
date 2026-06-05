@@ -10,7 +10,7 @@ body {
 /* HERO SECTION */
 .hero {
     height: 90vh;
-    background: linear-gradient(135deg, #e8f0ff 0%, #f3e9ff 50%, #ffeef5 100%);
+    background: linear-gradient(135deg, #d7e3ff 0%, #e6d9ff 50%, #ffe3f0 100%);
     display: flex;
     align-items: center;
     justify-content: center;
