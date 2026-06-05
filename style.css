@@ -3,14 +3,22 @@
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
-    background: #f6f7fb;
-    color: #222;
+    background: #F7F8FC;
+    color: #2A2A2A;
 }
 
-/* HERO SECTION */
+/* LOGO */
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    color: #6A7FDB;
+    margin-bottom: 20px;
+}
+
+/* HERO */
 .hero {
     height: 90vh;
-    background: linear-gradient(135deg, #d7e3ff 0%, #e6d9ff 50%, #ffe3f0 100%);
+    background: linear-gradient(135deg, #dfe6ff 0%, #e9ddff 50%, #ffe5f2 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,35 +28,32 @@ body {
 
 .hero-content {
     max-width: 700px;
-    color: #2a2a2a;
 }
 
 .hero h1 {
-    font-size: 64px;
+    font-size: 48px;
     margin-bottom: 10px;
     font-weight: 700;
 }
 
 .hero p {
-    font-size: 22px;
+    font-size: 20px;
     opacity: 0.85;
     margin-bottom: 30px;
 }
 
 .cta {
-    background: rgba(255,255,255,0.6);
+    background: #6A7FDB;
     padding: 14px 32px;
     border-radius: 14px;
-    backdrop-filter: blur(12px);
-    color: #333;
+    color: white;
     text-decoration: none;
     font-weight: 600;
-    border: 1px solid rgba(255,255,255,0.8);
     transition: 0.3s ease;
 }
 
 .cta:hover {
-    background: rgba(255,255,255,0.8);
+    background: #5a6ec7;
 }
 
 /* SECTIONS */
@@ -58,7 +63,7 @@ body {
 }
 
 .section h2 {
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 20px;
 }
 
@@ -78,16 +83,15 @@ body {
 }
 
 .card {
-    background: rgba(255,255,255,0.7);
+    background: white;
     padding: 30px;
     border-radius: 20px;
-    backdrop-filter: blur(12px);
     box-shadow: 0 8px 24px rgba(0,0,0,0.05);
 }
 
 .card h3 {
     margin-bottom: 10px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 /* FOOTER */
